@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_selector"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <ImageView
+        android:id="@+id/article_image"
+        android:layout_width="match_parent"
+        android:layout_height="275sp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/article_title"
+        style="@style/article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_weight="1.0"
+        android:text="@string/article_title"
+        android:textSize="@dimen/article_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/gray"
+        />
+
+    <TextView
+        android:id="@+id/source_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/source_info"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/source_info"
+        android:gravity="right"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1.0"/>
+
+    <TextView
+        android:id="@+id/article_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/article_description"
+        android:textSize="@dimen/article_description" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ro.stiam.stiri.david</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="article_title">Article title</string>
+    <string name="source_info">stiam.ro - acum 40 minute</string>
+    <string name="article_description">Article description</string>
+    <string name="article_body">Article body</string>
+    <string name="title_activity_article_item">ArticleItem</string>
+    <string name="title_activity_article_view">ArticleView</string>
+    <string name="category_list_header">Categorie</string>
+    <string name="category_title">Category title</string>
+
+
+
+</resources>
